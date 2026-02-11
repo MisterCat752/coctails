@@ -19,7 +19,7 @@ const Menu = () => {
         opacity: 1,
         duration: 1,
         ease: 'power1.inOut',
-      }
+      },
     );
     gsap.fromTo(
       '.details h2',
@@ -28,7 +28,7 @@ const Menu = () => {
         yPercent: 0,
         opacity: 100,
         ease: 'power1.inOut',
-      }
+      },
     );
     gsap.fromTo(
       '.details p',
@@ -37,7 +37,7 @@ const Menu = () => {
         yPercent: 0,
         opacity: 100,
         ease: 'power1.inOut',
-      }
+      },
     );
   }, [currentIndex]);
 
@@ -62,12 +62,12 @@ const Menu = () => {
   return (
     <section id='menu' aria-labelledby='menu-heading'>
       <img
-        src='/images/slider-left-leaf.png'
+        src='/coctails/images/slider-left-leaf.png'
         alt='left-leaf'
         id='m-left-leaf'
       />
       <img
-        src='/images/slider-right-leaf.png'
+        src='/coctails/images/slider-right-leaf.png'
         alt='right-leaf'
         id='m-right-leaf'
       />
@@ -102,7 +102,7 @@ const Menu = () => {
           >
             <span>{prevCocktail.name}</span>
             <img
-              src='/images/right-arrow.png'
+              src='/coctails/images/right-arrow.png'
               alt='right-arrow'
               aria-hidden='true'
             />
@@ -114,7 +114,7 @@ const Menu = () => {
           >
             <span>{nextCocktail.name}</span>
             <img
-              src='/images/left-arrow.png'
+              src='/coctails/images/left-arrow.png'
               alt='left-arrow'
               aria-hidden='true'
             />
