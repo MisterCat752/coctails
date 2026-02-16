@@ -8,6 +8,7 @@ The project focuses on immersive storytelling, cinematic motion, and smooth user
 Designed as a highly visual marketing website with rich scroll interactions and reusable UI blocks.
 
 ---
+Live Demo: [View Portfolio](https://mistercat752.github.io/coctails/)
 
 ## 🚀 Tech Stack
 
