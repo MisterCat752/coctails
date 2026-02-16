@@ -1,12 +1,84 @@
-# React + Vite
+# 🍸 Cocktail Bar Animated Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Preview](public/main.png)
 
-Currently, two official plugins are available:
+Modern animated landing page built with **React**, **Tailwind CSS**, and **GSAP**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The project focuses on immersive storytelling, cinematic motion, and smooth user experience.  
+Designed as a highly visual marketing website with rich scroll interactions and reusable UI blocks.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Tech Stack
+
+- React 19
+- Vite
+- JavaScript
+- Tailwind CSS
+- GSAP
+- @gsap/react
+- react-responsive
+
+---
+
+## ✨ Key Features
+
+- Scroll-driven animations
+- Cinematic hero transitions
+- Parallax effects
+- Interactive menus
+- Cocktail & recipe showcases
+- Fully responsive layout
+- Component-based architecture
+
+---
+
+## 🎬 Animation Highlights
+
+- GSAP timelines for precise sequence control
+- Element reveal on scroll
+- Layered parallax compositions
+- Smooth section transitions
+- Micro-interactions for UI elements
+
+---
+
+## 🧱 Project Structure Philosophy
+
+The application is split into reusable visual sections.  
+Each block can be easily rearranged, replaced, or extended without breaking animation flow.
+
+This makes the landing page adaptable for future content or branding updates.
+
+---
+
+## 🧠 Challenges & Solutions
+
+### Complex animation coordination
+
+Used GSAP timelines and refs to synchronize multiple animated elements and maintain performance.
+
+### Responsiveness
+
+Implemented adaptive layouts and conditional animation triggers for different screen sizes.
+
+### Maintainability
+
+Separated animation logic from UI markup to keep components readable.
+
+---
+
+## ⚙️ Getting Started
+
+### 1. Clone repository
+
+```bash
+git clone <repo-url>
+cd gsap_project
+
+2. Install dependencies
+npm install
+
+▶ Run development server
+npm run dev
+```
