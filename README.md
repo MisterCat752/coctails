@@ -73,7 +73,7 @@ Separated animation logic from UI markup to keep components readable.
 ### 1. Clone repository
 
 ```bash
-git clone <repo-url>
+git clone <https://github.com/MisterCat752/coctails.git>
 cd gsap_project
 
 2. Install dependencies
